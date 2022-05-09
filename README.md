@@ -18,30 +18,30 @@ Node.js (12 or Higher) - Cross verify the Node.js installation by running the co
 
 ## SETUP WITHOUT DOCKER 
 
-###### Fork and clone this repo to a local directory
+#### Fork and clone this repo to a local directory
 git clone https://github.com/<your-username>/<repo-name>.git
 
-###### cd into the cloned repo
+#### cd into the cloned repo
 cd <repo-name>
 
-##### install the Dependency
+#### install the Dependency
 npm install
 
-##### start the local webserver
+#### start the local webserver
 npx cypress open
 
 ## SETUP WITH DOCKER 
 
-###### clone this repo to a local directory
+#### clone this repo to a local directory
 git clone https://github.com/<your-username>/<product-name>.git
 
-###### cd into the cloned repo
+#### cd into the cloned repo
 cd <product-name>
 
-###### Build the Docker Image 
+#### Build the Docker Image 
 docker build -t test .
 
-###### Run the Docker Image 
+#### Run the Docker Image 
 docker run test
 
 Script Focus: What Does The Script Do?
