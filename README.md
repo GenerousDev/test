@@ -44,9 +44,3 @@ Node.js (12 or Higher) - Cross verify the Node.js installation by running the co
 
 #### Run the Docker Image 
 * docker run test
-
-Script Focus: What Does The Script Do?
-
-The following activities were carried out on the Script
-
-
