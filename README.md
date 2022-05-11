@@ -22,21 +22,21 @@ Node.js (12 or Higher) - Cross verify the Node.js installation by running the co
 #### Fork and clone this repo to a local directory
 * git clone https://github.com/<your-username>/<repo-name>.git
 
-#### cd into the cloned repo
+#### CD into the cloned repo
 * cd <repo-name>
 
-#### install the Dependency
+#### Install the Dependency
 * npm install
 
-#### start the local webserver
+#### Start the local webserver
 * npx cypress open
 
 ## SETUP WITH DOCKER 
 
-#### clone this repo to a local directory
+#### Clone this repo to a local directory
 * git clone https://github.com/<your-username>/<product-name>.git
 
-#### cd into the cloned repo
+#### CD into the cloned repo
 * cd <product-name>
 
 #### Build the Docker Image 
